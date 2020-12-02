@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        li {
+            line-height: 5vh;
+            width: 5vw;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+        }
+
+        a {
+            color: white;
+            font-size: 3vh;
+        }
+
+        #mainmenu {
+            width: 100vw;
+            height: 5vh;
+            background-color: darkblue;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 10vh;
+            color: lightgrey;
+        }
+
+        #admin {
+            width: 100vw;
+            height: 5vh;
+            background-color: gold;
+        }
+        #admin a
+        {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+       <nav id="mainmenu">
+            <ul>
+                <li><a href="/">main</a></li>
+                <li><a href="/register">register</a></li>
+                <li><a href="/login">login</a></li>
+                <li><a href="/admin">admin</a></li>
+                <li><a href="/adminlogout">logout</a></li>
+            </ul>
+        </nav>
+        
+        <nav id="admin">
+            <ul>
+                <li><a href="/show">show</a></li>
+                <li><a href="/gender">gender</a></li>
+                <li><a href="/sort">sort</a></li>
+            </ul>
+        </nav>
+
+
+        <main>
+            <h1>admin page</h1>
+        </main>
+    </div>
+</body>
+
+</html>

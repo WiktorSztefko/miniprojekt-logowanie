@@ -1,0 +1,44 @@
+body
+{
+    background-color:#212121;
+    margin:0;
+    padding:0;
+    color:white;
+    font-family:
+    Arial, Helvetica, sans-serif;
+}
+li {
+    line-height: 5vh;
+    width: 5vw;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+a {
+    color: white;
+    font-size: 3vh;
+}
+table
+{
+    width:90%;
+     margin: 30px auto 50px;
+}
+tr
+{
+    height:30px;
+}
+td
+{
+    width:45%; 
+    border: 1px solid gold;
+    box-sizing: border-box; 
+    padding:10px
+}
+nav
+{
+    margin-top:15px
+}
