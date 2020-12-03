@@ -117,8 +117,9 @@ app.get("/show", function (req, res) {
     body.push("<nav><ul><li><a href=/show>show</a></li><li><a href=/gender>gender</a></li><li><a href=/sort>sort</a></li></ul></nav>")
 
     body.push("<table>")
-
+    console.log(users)
     for (i = 1; i <= id; i++) {
+      console.log(i)
       body.push(`<tr><td>id: ${i}</td><td>user: ${users[i - 1].log}---${users[i - 1].pass}</td>`)
       if (users[i - 1].uczen == "checked") {
         body.push(`<td>uczeń: <input type="checkbox" disabled checked></input></td>`)
